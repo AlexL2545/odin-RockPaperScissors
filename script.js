@@ -66,7 +66,7 @@ function playGame(){
         playRound(getHumanChoice(),getComputerChoice());
     }
 
-    // displays the final score of player and computer after "numOfRounds" played
+    // displays the final score of player and computer after "numOfRounds" play
     console.log("Game over!!!!");
     console.log("Player: ", humanScore);
     console.log("Computer: ", computerScore);
